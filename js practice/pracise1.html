@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practise</title>
+    <style>
+        .btn{
+            color: white;
+            background-color: rgb(255, 136, 0);
+            font-weight: 700;
+            padding: 14px;
+            border-radius: 12px;
+            transition: 0.3s ease-in-out;
+        }
+        .btn:hover{
+            background-color: white;
+            color: rgb(255, 136, 0);
+            cursor: pointer;
+        }
+        .btn:active{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student List</h1>
+    <ul>
+        <li>Manish</li>
+        <li>Anurag</li>
+        <li>Abhay</li>
+        <li>Madhur</li>
+    </ul>
+    <button class="btn" id="fetchBtn" type="submit">Fetch Data</button>
+
+    <div class="content" id="fetchContent"></div>
+
+
+<script src="../js practice/practise1.js"></script>
+<script src="../js practice/api.js"></script>
+</body>
+</html>
